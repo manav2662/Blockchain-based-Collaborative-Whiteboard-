@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-based Collaborative Whiteboard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xc0144632919599732453ec0f1eafd7ac48df3328e12f2dc976457b5298bbfd68"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
